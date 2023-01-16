@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+div{
+    margin: 50px;
+    width:270px;
+    height:250px;
+    border-radius: 7px;
+    padding:2px;
+    background-image: linear-gradient(white, rgb(230, 227, 227));
+    box-shadow: 2px 2px 4px rgb(108, 107, 107) , 
+    -2px -2px 4px rgb(108, 107, 107),
+    2px -2px 4px rgb(108, 107, 107), -2px 2px 4px rgb(108, 107, 107);
+}
+img{
+    width:95%;
+    height:60%;
+    margin:7px;
+    opacity:0.8;
+    border-radius: 7px;
+}
+div:hover img{
+    border: 2px solid yellow; 
+    cursor: pointer;
+    opacity:1;
+}
+p{
+    margin-left: 7px;
+    font-size:larger;
+    font-weight: bold;
+    cursor:pointer;
+}
+p:hover{
+    color:blue;
+}
+hr{
+    margin:7px;
+    width:200px;
+}
+#e1{
+    margin:7px;
+    font-size:medium;
+    color:grey;
+    font-weight:bold ;
+}
+#e2{
+    margin:7px;
+    color: rgb(101, 43, 226);
+}
+#e3{
+    margin:7px;
+    background-color: rgb(23, 218, 186);
+    border-radius: 4px;
+    color:white;
+    font-size: small;
+    font-weight: bold;
+    padding:3px 8px 3px 8px;
+    cursor:default;
+}

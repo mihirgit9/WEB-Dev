@@ -1,0 +1,52 @@
+body{
+    background-color: aquamarine;
+}
+div.box1{
+    max-width: 25%;
+    min-width: 25vw;
+    min-height: 150px;
+    margin-top: 50px;;
+    position:sticky;
+    top:0px;
+}
+div.hd{
+    max-width: 25vw;
+    min-width: 25vw;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: blueviolet;
+}
+h1{
+    text-align: center;
+}
+table{
+    background-color:pink;
+    max-width:25vw;
+    min-width: 25vw;
+    margin-top: 5px;
+    display:inline-block;
+}
+td{
+    padding: 8px;
+}
+
+input:hover{
+    background-color:rgb(197, 211, 237);
+}
+select:hover{
+    background-color:rgb(197, 211, 237);
+}
+textarea:hover{
+    background-color:rgb(197, 211, 237);
+}
+button:hover{
+    color:rgba(33, 126, 249, 0.744);
+}
+iframe{
+    width:25%;
+    height:300px;
+    background-color: rgb(191, 189, 189);
+    border:5px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px red;
+}
