@@ -78,11 +78,11 @@ h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .b1{
-    background-image: url('/Images/sport-1.jpg');
+    background-image: url('../Images/sport-1.jpg');
 }
 .b2{
-    background-image: url('/Images/sport-2.jpg');
+    background-image: url('../Images/sport-2.jpg');
 }
 .b3{
-    background-image: url('/Images/sport-3.jpg');
+    background-image: url('../Images/sport-3.jpg');
 }

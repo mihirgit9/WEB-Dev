@@ -2,7 +2,7 @@ body{
     background-color: aquamarine;
 }
 div.box1{
-    max-width: 25%;
+    max-width: 25vw;
     min-width: 25vw;
     min-height: 150px;
     margin-top: 50px;;
@@ -25,6 +25,7 @@ table{
     min-width: 25vw;
     margin-top: 5px;
     display:inline-block;
+    overflow-x:scroll;
 }
 td{
     padding: 8px;
