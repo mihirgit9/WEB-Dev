@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(234, 227, 219);
+}
+.box{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:stretch;
+    width:350px;
+    height:200px;
+    margin:10rem auto;
+    padding:10px;
+}
+.card{
+    width:45%;
+}
+.card img{
+    width:100%;
+    height:100%;
+    border-radius: 10px 0 0 10px;
+}
+.info{
+    width:55%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 10px 10px 0;
+    padding: 5px 10px;
+    text-align: left;
+}
+.info #title{
+    margin:5px;
+    font-family:"Montserrat", sans-serif;
+    font-size: .6rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    color: rgb(143, 137, 137);
+    
+}
+h1{
+    margin:5px;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 2.5px;
+    line-height: 1;
+    font-size: 1.4rem;
+}
+.info #desc{
+    margin:10px 5px;
+    font-family:"Montserrat", sans-serif;
+    font-size: 8px;
+    color: rgb(99, 95, 95);
+}
+span#dp{
+    font-family: "Fraunces", sans-serif;
+    color: rgb(17, 150, 99);
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin:0.6rem 8px;
+}
+span#mrp{
+    font-family:"Montserrat", sans-serif;
+    color:rgb(136, 127, 127);
+    font-size: 0.8rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(17, 150, 99);
+    border-style: none;
+    border-radius: 5px;
+    width:95%;
+    margin:20px 5px;
+    padding: 5px;
+    cursor:pointer;
+}
+.button:hover{
+    background-color:rgb(11, 92, 61);
+}
+.button span{
+    color: aliceblue;
+    font-family:"Montserrat", sans-serif;
+    font-size: 0.7rem;
+}
+.button img{
+    transform:scale(0.7);
+    padding:0 5px;
+}
