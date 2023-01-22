@@ -1,0 +1,39 @@
+.container{
+    width:100vw;
+    height:50vh;
+    background-color: aqua;
+    padding:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    position:relative;
+    display:inline-block;
+    background-color: blueviolet;
+    padding:0.75rem 1.2rem;
+    cursor: pointer;
+    box-shadow: 5px 5px 8px rgb(92, 90, 90);
+    border-radius: 5px;
+    
+}
+.text{
+    color:aliceblue;
+    height:100%;
+    width:100%;
+    z-index:1;
+    position: relative;
+}
+.over{
+    position: absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:0;
+    background-color: black;
+    border-radius: 5px;
+}
+.button:hover .over{
+    width:100%;
+    transition:0.5s
+}
