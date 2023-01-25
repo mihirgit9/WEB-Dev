@@ -228,23 +228,23 @@
 }
 .project-heading{
     color:var(--bgOrange);
-    font-size:90px;
+    font-size:6rem;
     text-align:center;
-    padding-top:30px;
+    padding-top:2rem;
 }
 .project-container{
     display: flex;
     flex-direction: column;
-    gap:120px;
+    gap:8rem;
     margin:0 auto;
     padding:3rem 0;
 }
 .card{
     width:90%;
-    height:550px;
+    height:35rem;
     position:relative;
     background-size: cover;
-    box-shadow:0px 0px 40px #1f1f1f;
+    box-shadow:0 0 2.5rem #1f1f1f;
 }
 .tint-black{
     position:absolute;
@@ -267,10 +267,10 @@
 }
 .card-number{
     position:absolute;
-    font-size:200px;
+    font-size:14rem;
     font-weight:600;
     color:white;
-    z-index:10;
+    z-index:5;
     opacity: 0;
     transition: all 0.4s;
 }
@@ -303,19 +303,19 @@
     width:60%;
     display:flex;
     flex-wrap: wrap;
-    gap:10px;
+    gap:0.7rem;
 }
 .project-skill{
-    width:40px;
+    width:2.5rem;
 }
 .project-name{
-    font-size:50px;
+    font-size:3.3rem;
     font-weight: bold;
     line-height:3rem;
 }
 .project-desc{
     width:70%;
-    font-size:16px;
+    font-size:1rem;
     font-style: italic;
 }
 .btn-area{
@@ -325,7 +325,7 @@
 }
 .btn-area .icon{
     color:white;
-    font-size:35px;
+    font-size:2.3rem;
     transition:all 0.4s;
 }
 .icon:hover{
@@ -359,15 +359,15 @@
     display: flex;
     margin:10rem auto;
     padding:5rem 0;
-    gap:30px;
+    gap:2rem;
     position:relative;
 }
 .skill-fade{
     font-size:15em;
     font-weight:bold;
     color:rgb(231,231,231);
-    bottom:-34.5%;
-    right:-25%;
+    bottom:-35.5%;
+    right:-34%;
     user-select:none;
 }
 .skills-right{
@@ -380,7 +380,7 @@
     width:50%;
 }
 .skills-logo{
-    width:90px;
+    width:5.5rem;
     transition:all 0.5s;
 }
 .skills-logo:hover{
@@ -406,13 +406,13 @@
     justify-content: start;
 }
 .skills-heading{
-    font-size:50px;
+    font-size:3.3rem;
     font-weight: bold;
     color: var(--bgOrange);
     line-height: 50px;
 }
 .caps{
-    font-size:90px;
+    font-size:6rem;
 }
 .skills-desc{
     margin-top: 1rem;
@@ -420,5 +420,133 @@
     text-align: justify;
 }
 .skills-desc p{
-    margin:15px 0;
+    margin:1rem 0;
+}
+#contact{
+    width:100vw;
+    background-color: rgb(231,231,231);
+    margin-top:4rem;
+}
+.form-header{
+    margin-bottom: 2rem;
+}
+.form-heading{
+    color:var(--bgOrange);
+    font-size:5rem;
+    padding-top:2rem;
+}
+.form-sub-heading{
+    color: #696794;
+    font-weight: 800;
+    font-size: 2.9rem;
+}
+.form-content{
+    margin-left: 11rem;
+    width:75%;
+    padding-bottom: 2rem;
+}
+.form-field{
+    padding:1rem 0;
+}
+.form-field input, .form-field textarea{
+    width:100%;
+    height:3rem;
+    border-radius: 5px;
+    border:none;
+    background-color: rgb(241, 242, 243);
+    box-shadow: 2px 2px 8px rgb(81, 80, 80);
+}
+input[placeholder], textarea[placeholder]{
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+.form-field textarea{
+    height:15rem;
+}
+textarea[placeholder]{
+    padding-top: 1rem;
+}
+.msg-btn{
+    font-size: 1.4rem;
+    margin-top:2rem;
+    margin-bottom: 1rem;
+    transition:all 0.5s;
+}
+.submit-icon{
+    padding:0 0.7rem;
+    font-size: 1.4rem;
+}
+.msg-btn:hover{
+    transform: scale(0.9);
+}
+.footer{
+    background-color: #343d68;
+    height:14.5rem;
+    position:relative
+}
+.foot-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100%;
+}
+.faded-footer{
+    position:absolute;
+    font-size:4.5em;
+    color: #d3d1fb;
+    bottom:0;
+    left:0;
+    user-select:none;
+    opacity:0.2;
+    letter-spacing: 3px;
+}
+.foot-items{
+    display: flex;
+    gap:1.2rem;
+}
+.foot-items div a{
+    color: #fff;
+    font-size: 1.1rem;
+    transition: all 0.5s;
+}
+.foot-items div a:hover{
+    color:var(--bgOrange)
+}
+.foot-links{
+    display: flex;
+    gap:1rem;
+}
+.foot-links i{
+    font-size: 2.2rem;
+    color:#fff;
+    transition:all 0.4s;
+}
+@media (max-width:1300px){
+    .container{
+        width:100%;
+    }
+    .hero-section{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:3rem;
+    }
+    .hero-left{
+        text-align: center;
+        align-items: center;
+        gap:1rem;
+        width:100%;
+        position:relative;
+    }
+    .hero-btn{
+        position:absolute;
+        bottom:-32rem;
+    }
+    .user-img{
+        height:22rem;
+        padding:2rem;
+    }
+    .faded{
+        opacity:0;
+    }
 }

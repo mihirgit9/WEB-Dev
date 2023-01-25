@@ -11,7 +11,7 @@
 <body>
     <div id="wrapper">
         <div class="container">
-            <div class="navbar">
+            <div class="navbar" id="home">
                 <div class="logo-area">
                     <div class="logo">
                         <img src="/WEB Dev/Images/Portfolio/m_logo.png">
@@ -36,7 +36,7 @@
                     <div class="left-description">
                         I'm a software developer and here is my portfolio website. Here you’ll learn about my journey as a software developer.
                     </div>
-                    <div class="btn">Hire Me</div>
+                    <div class="btn hero-btn">Hire Me</div>
                 </div>
                 <div class="hero-right">
                     <div class="absolute icon-dots">
@@ -224,7 +224,49 @@
             </div>
         </div>
         <div id="contact">
-            
+            <div class="form-container container">
+                <div class="form-header">
+                    <h1 class="form-heading">Contact Me</h1>
+                    <h2 class="form-sub-heading">Questions, Thoughts, Or Just Want To Say Hello?</h2>
+                </div>
+                <div class="form-content">
+                    <form class="form" action="https://formspree.io/f/mlekrnnl" method="post">
+                        <div class="form-field">
+                            <input type="text" name="name" id="" placeholder="Enter your name">
+                        </div>
+                        <div class="form-field">
+                            <input type="email" name="email" id="" placeholder="Enter your email address">
+                        </div>
+                        <div class="form-field">
+                            <input type="text" name="name" id="" placeholder="Enter your subject">
+                        </div>
+                        <div class="form-field">
+                            <textarea name="message" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                        </div>
+                        <button class="btn msg-btn">Send Message  <i class="submit-icon fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container foot-container">
+                <div class="foot-items">
+                    <div><a href="#home">Home</a></div>
+                    <div><a href="#project">Projects</a></div>
+                    <div><a href="#skills">skills</a></div>
+                    <div><a href="#contact">Contact Me</a></div>
+                </div>
+                <div class="foot-links">
+                    <i class="fa-brands fa-linkedin icon"></i>
+                    <i class="fa-brands fa-github icon"></i>
+                    <i class="fa-brands fa-twitter icon"></i>
+                    <i class="fa-brands fa-instagram icon"></i>
+                    <i class="fa-regular fa-envelope icon"></i>
+                </div>
+            </div>
+            <div class="faded-footer">
+                Mihir Thakur
+            </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
