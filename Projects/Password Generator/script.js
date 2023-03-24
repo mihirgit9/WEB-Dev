@@ -143,6 +143,7 @@ copyBtn.addEventListener("click", ()=>{
 
 // Strength
 const indicator=document.querySelector(".indicator");
+const display=document.querySelector(".display");
 function calcStrength() {
     let hasUpper = false;
     let hasLower = false;
@@ -168,4 +169,5 @@ function calcStrength() {
 function setIndicator(color) {
     indicator.style.backgroundColor = color;
     indicator.style.boxShadow = `0px 0px 12px 1px ${color}`;
+    display.style.borderBottomColor=color;
 }

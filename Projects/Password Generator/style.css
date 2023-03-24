@@ -29,7 +29,7 @@
     margin:1rem;
     position: relative;
     border-radius: 10px;
-    border-bottom: 5px solid yellowgreen;
+    border-bottom: 5px solid rgb(242, 245, 237);
 }
 
 .passwordDisplay{
