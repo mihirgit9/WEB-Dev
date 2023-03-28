@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+#wrapper{
+    background: linear-gradient(160deg, #112d4e 0%, #3f72af 100%);
+    width:100vw;
+    min-height: 100vh;
+    padding:2rem;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.header{
+    width:500px;
+    margin:0 auto;
+}
+.header h1{
+    color: aliceblue;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: 780;
+}
+.tabs{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+}
+.tab{
+    padding:5px;
+    border-radius: 5px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color:aliceblue;
+}
+.currentTab{
+    background-color: rgb(23, 235, 164);
+    color: black;
+}
+
+.permission{
+    width:500px;
+    margin:4rem auto;
+    display: none;
+    flex-direction: column;
+}
+.permission img{
+    margin:0 auto;
+    margin-bottom: 1rem;
+
+}
+.permission h2{
+    text-align: center;
+    margin:0.8rem;
+    color: aliceblue;
+    font-size: 1.7rem;
+}
+.permission p{
+    text-align: center;
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+.permission button{
+    all:unset;
+    margin:1.5rem auto;
+    background-color: rgb(23, 235, 164);
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+.permission button:hover{
+    background-color: rgb(8, 187, 127);
+}
+
+.searchCity{
+    width:500px;
+    margin:3rem auto;
+    display: none;
+    justify-content: space-between;
+}
+.searchCity input{
+    all:unset;
+    background-color: rgb(196, 194, 191);
+    width:80%;
+    height:2.5rem;
+    border-radius: 0.5rem;
+    padding:0 1.7rem;
+}
+.searchCity div{
+    display: flex;
+    background-color: #3f72af;
+    height:2.5rem;
+    width:2.5rem;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.weatherInfo{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.cityName{
+    display: flex;
+    gap:0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.cityName div{
+    color:aliceblue;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.cityName img{
+    height:1.4rem;
+}
+.condition{
+    color:aliceblue;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.conditionImg{
+    margin-top: -1rem;
+}
+.temp{
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.details{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    width:500px;
+}
+.detail{
+    background-color: rgb(92, 191, 158);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:31%;
+    border-radius: 0.5rem;
+}
+.detail img{
+    height:3rem;
+    margin-bottom: 0.5rem;
+}
+.detail p{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.detail div{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.loading{
+    display:none ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+.loading p{
+    font-size: 1.4rem;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.notFound{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.notFound p{
+    color:aliceblue;
+    margin-top: 0.7rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.active{
+    display: flex;
+}
