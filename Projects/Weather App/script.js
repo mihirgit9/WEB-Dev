@@ -61,7 +61,6 @@ function getUserWeather(){
     }
     else{
         const coordinates=JSON.parse(localCoordinates);
-        loading.classList.add("active");
         fetchUserWeatherInfo(coordinates);
     }
 
@@ -70,6 +69,7 @@ function getUserWeather(){
 async function fetchUserWeatherInfo(coordinates){
     const {lat, lon}=coordinates;
     permission.classList.remove("active");
+    loading.classList.add("active");
     //API CALL
     try {
         const response = await fetch(
@@ -114,6 +114,7 @@ function getSearchWeather(){
 async function searchWeather(){
     let place=searchInput.value;
     loading.classList.add("active");
+    notFound.classList.remove("active");
 
     try{
         const response= await fetch(
