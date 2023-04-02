@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-color: rgb(27, 27, 51);
+    width: 100vw;
+    height: 100vh;
+    color: aliceblue;
+    padding: 2rem;
+}
+
+.header{
+    width:50%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.title{
+    font-size: 1.7rem;
+}
+.theme{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    cursor: pointer;
+}
+.searchID{
+    width:50%;
+    height: 4.5rem;
+    margin:2.5rem auto;
+    background-color: rgb(56, 56, 94);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.5rem 1.5rem;
+    position: relative;
+}
+.searchID p{
+    color: rgb(245, 50, 50);
+    position: absolute;
+    right: 18rem;
+    top: 5rem;
+    letter-spacing: 2px;
+    display: none;
+}
+
+input{
+    all: unset;
+    height: 100%;
+    width: 70%;
+    padding: 0 2.2rem;
+    background: url("./images/search-icon.svg");
+    background-repeat: no-repeat;
+    background-position-y: center ;
+}
+input::placeholder{
+    color: aliceblue;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+}
+.searchID button{
+    all:unset;
+    background-color: rgb(9, 192, 131);
+    color: aliceblue;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 1.7rem;
+}
+.searchID button:hover{
+    outline: 2px solid rgb(49, 49, 246);
+}
+
+.hero{
+    width:50%;
+    margin:0 auto;
+    position: relative;
+    background-color: rgb(56, 56, 94);
+    border-radius: 1rem;
+    padding: 2rem ;
+    padding-left: 10rem;
+}
+
+.heroImg{
+    position: absolute;
+    border-radius: 100%;
+    height: 110px;
+    left: 1rem;
+    top: 1rem;
+}
+
+.heroHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heroName{
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.1rem;
+}
+.heroJoin{
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    color: rgba(240, 248, 255, 0.753);
+}
+.git-username{
+    margin: 0.4rem 0rem;
+}
+.gitID{
+    color: rgb(52, 156, 254);
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+}
+.gitBio{
+    margin: 1.1rem 0rem;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    font-family:  Tahoma, sans-serif;
+}
+
+.details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(36, 34, 34);
+    height: 6.5rem;
+    border-radius: 0.5rem;
+    margin: 3rem 0;
+}
+.detailBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.detailBox p{
+    letter-spacing: 2px;
+
+}
+.detailBox div{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contacts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding:0 4rem;
+    row-gap: 1.5rem;
+    column-gap: 5rem;
+}
+.contactBox{
+    display: flex;
+    gap: 1rem;
+}
+.contact{
+    color: rgba(240, 248, 255, 0.686);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+
+
+/* Light Theme */
+.wrapperLight{
+    background-color: rgb(234, 236, 238);
+    color: black;
+}
+.titleLight{
+    color: rgb(46, 46, 46);
+}
+.themeNameLight{
+    color: rgb(46, 46, 46);
+}
+.searchIDLight{
+    background-color: white;
+}
+.inputLight::placeholder{
+    color: rgb(46, 46, 46);
+}
+.heroLight{
+    background-color: white;
+}
+.heroNameLight{
+    color: rgb(25, 25, 25);
+}
+.heroJoinLight{
+    color: rgba(25, 25, 25, 0.782);
+}
+.gitBioLight{
+    color: rgb(75, 74, 74);
+}
+.detailsLight{
+    background-color: rgb(233, 232, 232);
+}
+.detailNameLight{
+    color: rgb(64, 63, 63);
+}
+.detailLight{
+    color: rgb(17, 16, 16);
+}
+.contactLight{
+    color: rgb(101, 99, 99);
+}
