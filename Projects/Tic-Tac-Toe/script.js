@@ -39,6 +39,7 @@ boxes.forEach((box, index)=>{
 
 function handleBoxClick(index){
     boxes[index].innerHTML=currentPlayer;
+    boxes[index].style.pointerEvents="none";
     gameGrid[index]=currentPlayer;
     switchPlayer();
     checkGameOver();
